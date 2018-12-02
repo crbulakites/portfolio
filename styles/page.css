@@ -1,8 +1,7 @@
-h1 {
-  font-family: "Verdana";
-}
+.content {
+  font-family: Palatino, serif;
+  font-size: 1.3em;
 
-p {
-  font-family: "Verdana";
-  font-size: 1em;
+  padding-left: 25px;
+  padding-right: 25px;
 }
