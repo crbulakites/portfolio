@@ -1,7 +1,81 @@
+html {
+    background-color: #f1faee;
+}
+
+body {
+    margin: 0px;
+}
+
+h1 {
+    margin: 0px;
+}
+
+h2 {
+    margin: 0px;
+}
+
+p {
+    margin: 0px;
+}
+
+
 .content {
-    font-family: Helvetica;
+    font-family: Arial;
+    font-weight: bold;
     font-size: 1.3em;
+}
+
+.header {
+    background-color: #1d3557;
+    color: #a8dadc;
+    padding: 25px;
+}
+
+.link_section {
+    padding: 25px;
+    text-align: center;
+}
+
+#link_section_header {
+    margin: 15px;
+}
+
+#github_link {
+    height: 100px;
+    margin: 20px;
+    vertical-align: middle;
+    transition: transform .2s;
+}
+
+#github_link:hover {
+    transform: scale(1.2);
+}
+
+#linkedin_link {
+    height: 80px;
+    margin: 25px;
+    vertical-align: middle;  
+    transition: transform .2s;
+}
+
+#linkedin_link:hover {
+    transform: scale(1.2);
+}
+
+#youtube_link {
+    height: 80px;
+    margin: 25px;
+    vertical-align: middle;
+    transition: transform .2s; 
     
-    padding-left: 25px;
-    padding-right: 25px;
+}
+
+#youtube_link:hover {
+    transform: scale(1.2);
+}
+
+.contact_section {
+    background-color: #e63946;
+    color: #f1faee;
+    padding: 25px;
 }
