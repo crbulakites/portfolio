@@ -1,5 +1,5 @@
 html {
-    background-color: #f1faee;
+    background-color: #1d3557;
 }
 
 body {
@@ -32,6 +32,7 @@ p {
 }
 
 .link_section {
+    background-color: #f1faee;
     padding: 25px;
     text-align: center;
 }
