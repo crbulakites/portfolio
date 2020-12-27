@@ -42,7 +42,7 @@ p {
 }
 
 #github_link {
-    height: 100px;
+    width: 25%;
     margin: 20px;
     vertical-align: middle;
     transition: transform .2s;
@@ -53,7 +53,7 @@ p {
 }
 
 #linkedin_link {
-    height: 80px;
+    width: 30%;
     margin: 25px;
     vertical-align: middle;  
     transition: transform .2s;
@@ -64,7 +64,7 @@ p {
 }
 
 #youtube_link {
-    height: 80px;
+    width: 30%;
     margin: 25px;
     vertical-align: middle;
     transition: transform .2s; 
