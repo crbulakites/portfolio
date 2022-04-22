@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Connor Bulakites</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Connor R. Bulakites</h1>
+            <h2>Computer Programmer & Data Scientist</h2>
+            <!-- Uncomment this section and add PDF to re-enable option to download resume -->
+            <!-- <a href="connor_bulakites_resume.pdf" download="connor_bulakites_resume.pdf" class="btn-rounded-white">Download Resume</a> -->
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                    I am a professional data scientist with a strong background in software development. I have a passion for learning and experimentation, and I hope to make the world a better place by contributing to advancements in technology. In my career, I have focused on cyber security, machine learning, and web development, but I also have a great interest in art – particularly film and music. My preferred programming language is Python, although I am highly adaptable and love to be challenged.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="September 2021 – present">
+                <h3>Jacobs</h3>
+                <h4>Tech Lead</h4>
+                <p>
+                    Led software development for a small team of engineers, data scientists, and cyber security subject matter experts
+                </p>
+            </div>
+
+            <div data-date="January 2020 – present">
+                <h3>Jacobs</h3>
+                <h4>Data Scientist</h4>
+                <p>
+                    Developed software pipelines to automatically ETL, analyze, and visualize large amounts of data and report insights
+                </p>
+            </div>
+
+            <div data-date="May 2018 – January 2020">
+                <h3>Jacobs (formerly KeyW)</h3>
+                <h4>Associate Data Scientist</h4>
+                <p>
+                    Trained machine learning models and wrote programs to infer the presence of malware on computer networks
+                </p>
+            </div>
+
+            <div data-date="May 2017 – May 2018">
+                <h3>Jacobs (formerly KeyW)</h3>
+                <h4>Intern Software Engineer</h4>
+                <p>
+                    Developed web applications to manage database replication and conflict resolution using a custom, domain-specific language
+                </p>
+            </div>
+
+            <div data-date="May 2015 – October 2016">
+                <h3>Attendee Interactive</h3>
+                <h4>Intern Web Developer</h4>
+                <p>
+                    Supported web applications for managing conferences and events for continuing education
+                </p>
+            </div>
+
+            <div data-date="August 2015 – December 2015">
+                <h3>Wake Forest University</h3>
+                <h4>Computer Science Teaching Assistant</h4>
+                <p>
+                    Hosted office hours to review introductory computer science concepts with students and graded programming assignments and exams
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- End #experience -->
+
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>Wake Forest University</h3>
+            <span class="education-date">August 2014 – December 2017</span>
+            <h4>Bachelor of Science in Computer Science</h4>
+            <ul>
+                <li>
+                    Graduated Magna cum Laude
+                </li>
+                <li>
+                    Member of Upsilon Pi Epsilon
+                </li>
+                <li>
+                    President of the Fencing Club
+                </li>
+            </ul>
+        </div>
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/23/Oscilli_Noise_Leak.jpg" width=300 height=300/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Hum Synthesizer</h3>
+                        <p>
+                        An experimental music notation language and synthesizer written in Rust.
+
+                        Hum converts markup text files to playable music which can either be streamed directly to your speakers or saved as WAV files.
+
+                        Supports Linux, MacOS, and Windows.
+                        </p>
+                        <a href="https://github.com/crbulakites/hum">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>SQL</li>
+            <li>C</li>
+            <li>C++</li>
+            <li>JavaScript</li>
+            <li>Java</li>
+            <li>Scala</li>
+            <li>Ruby</li>
+            <li>Elixir</li>
+            <li>Rust</li>
+            <li>NumPy</li>
+            <li>pandas</li>
+            <li>scikit-learn</li>
+            <li>PyTorch</li>
+            <li>fast.ai</li>
+            <li>HDFS</li>
+            <li>Hive</li>
+            <li>PySpark</li>
+            <li>Kafka</li>
+            <li>Git</li>
+            <li>Jupyter Notebook</li>
+            <li>MLflow</li>
+            <li>Airflow</li>
+            <li>Matplotlib</li>
+            <li>Tableau</li>
+            <li>React</li>
+            <li>AWS</li>
+            <li>Linux</li>
+            <li>Bash</li>
+            <li>Vim</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <div id="contact">
+        <h2>If you would like to contact me, please do so by <a href="mailto: connor@bulakites.net">Email</a>, <a href="https://www.linkedin.com/in/connor-bulakites-3422b9120"/>LinkedIn</a>, or <a href="https://github.com/crbulakites">GitHub</a>.</h2>
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; <span id="current-year">2022</span> CONNOR R. BULAKITES
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://www.linkedin.com/in/connor-bulakites-3422b9120" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/crbulakites" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
+
+</html>
