@@ -1,0 +1,155 @@
+:root {
+  --bg: #ffffff;
+  --text: #111827;
+  --muted: #4b5563;
+  --border: #e5e7eb;
+  --link: #0f766e;
+  --link-hover: #115e59;
+
+  --maxw: 68ch;
+  --pad: 1.25rem;
+  --leading: 1.6;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0b0f14;
+    --text: #e5e7eb;
+    --muted: #a1a1aa;
+    --border: #1f2937;
+    --link: #2dd4bf;
+    --link-hover: #5eead4;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial,
+    "Apple Color Emoji", "Segoe UI Emoji";
+  line-height: var(--leading);
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 2.25rem var(--pad) 2.5rem;
+}
+
+.site-header {
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 1.5rem;
+}
+
+.site-footer {
+  border-top: 1px solid var(--border);
+  margin-top: 2rem;
+  padding-top: 1.25rem;
+}
+
+.site-footer p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+h1 {
+  font-size: clamp(1.9rem, 3.2vw, 2.4rem);
+  letter-spacing: -0.02em;
+  margin: 0 0 0.35rem 0;
+}
+
+h2 {
+  font-size: 1.15rem;
+  letter-spacing: -0.01em;
+  margin: 1.6rem 0 0.75rem 0;
+}
+
+p {
+  margin: 0.75rem 0;
+}
+
+.tagline {
+  margin: 0.35rem 0 0.85rem 0;
+  color: var(--muted);
+  font-size: 1.02rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.16em;
+}
+
+a:hover {
+  color: var(--link-hover);
+}
+
+a:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--link) 35%, transparent);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+.items {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0 0;
+}
+
+.items > li {
+  padding: 0.85rem 0;
+  border-top: 1px solid var(--border);
+}
+
+.items > li:first-child {
+  border-top: none;
+}
+
+.subitems {
+  margin: 0.4rem 0 0;
+  padding-left: 1.15rem;
+}
+
+.subitems li {
+  margin: 0.25rem 0;
+}
+
+.row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.muted {
+  color: var(--muted);
+  font-size: 0.95rem;
+  white-space: nowrap;
+}
+
+@media (max-width: 520px) {
+  .container {
+    padding-top: 1.75rem;
+  }
+
+  .row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.15rem;
+  }
+
+  .muted {
+    white-space: normal;
+  }
+}
